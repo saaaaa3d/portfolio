@@ -1,0 +1,239 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+
+}
+.section-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  letter-spacing: 3%;
+  size: 100px;
+}
+.custom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+li{
+  width: 90px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.nav-links li a:hover{
+    color: #FD6F00;
+}
+
+.download-btn {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin: 20px 0 10px;
+}
+p ,li ,h3,h4{
+  font-family:' poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+h2.thicker{
+  font-family:' poppins', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 3%;
+}
+h2.thicker{
+  font-family:' poppins', sans-serif;
+  width:  210px;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 3%;
+  height: 48px;
+  font-weight: 900;
+}
+
+input[type="email"]{
+width: 627px;
+height: 75px;
+opacity: 1;
+border-radius: 14px;
+border-width: 1px;
+
+}
+input[type="submit"]{
+    width: 222px;
+height: 75px;
+top: 262px;
+left: 681px;
+opacity: 1;
+border-radius: 14px;
+background-color: #FD6F00;
+color: white;
+}
+/* input type range in the second section after the nav */
+input[type=range] {
+  
+  width: 100%;
+  background: transparent;
+  pointer-events: none; /* disable movement */
+}
+
+/* Track styling */
+input[type=range]::-webkit-slider-runnable-track {
+  height: 8px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+input[type=range]::-moz-range-track {
+  height: 8px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Progress before thumb */
+input[type=range]::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #ff6600 var(--value, 100%), #ddd var(--value, 100%));
+}
+input[type=range]::-moz-range-progress {
+  background-color: #ff6600;
+  height: 8px;
+}
+input[type=range]::-moz-range-track {
+  background-color: #ddd;
+  height: 8px;
+}
+
+/* Thumb styling */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -8px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: #fff;
+  border: 4px solid #ff6600;
+  cursor: default;
+}
+input[type=range]::-moz-range-thumb {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: #fff;
+  border: 4px solid #ff6600;
+  cursor: default;
+}
+.card-title{
+  font-family: 'Poppins', sans-serif;
+  width: 119px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 3%;
+  margin: 10px 0;
+  color: #ff6600;
+}
+.container-fluid{
+  background-color: #F8F8F8;
+}
+.foologo{
+  width: 242px;
+  height: 80px;
+  padding-left: 720px;
+  margin-top: 30px;
+}
+.footer {
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 3px;
+  margin: 0;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.button button{
+    width: 184px;
+    height: 56px;
+    position: relative;
+    top: 57px;
+    opacity: 1;
+    border-radius: 12px;
+    border-width: 0.4px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 10px;
+
+}
+.button button:hover{
+    color: white;
+    background-color: #FD6F00;
+}
+.foot{
+    padding-top: 35px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.footer-images-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 3px;
+  margin: 0;
+  gap: 30px;
+  padding-top: 30px;
+}
+.img-flui{
+  margin-left: 100px;
+  margin-top: 80px;
+}
+.card-body h5{
+  color: #ff6600;
+}
+#home{
+  padding-left: 100px;
+  padding-top: 50px;
+}
